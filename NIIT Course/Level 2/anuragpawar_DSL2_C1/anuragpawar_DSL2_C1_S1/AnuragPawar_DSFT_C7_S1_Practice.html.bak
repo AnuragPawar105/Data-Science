@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title> Weather Report </title>
+<style>
+h1
+{
+text-align: center;
+background-color: #00FFFF;
+}
+
+</style>
+</head>
+
+<body>
+<p>This website presents official weather observation, weather forecasts and climatological information for selected cities.
+<br>
+Links to some standard weather reporting websites are also provided in this website.</p>
+
+<h1> Weather Report </h1>
+<br>
+<h3> Select a city <h3>
+<ol>
+<li>
+<a href="Delhi.html"> Delhi </a>
+<li>
+<a href="mumbai.html"> Mumbai </a>
+<br>
+<p> Below are 6 websites to check accurate weather: </p>
+<a href = "https://www.accuweather.com/" target="_blank"> AccuWeather </a>
+<br>
+<a href = "https://www.windy.com/?28.580,77.330,5" target="_blank"> Windy </a>
+<br>
+<a href = "https://weather.com/en-IN/?Goto=Redirected" target="_blank"> The Weather Channel </a>
+<br>
+<a href = "https://www.ventusky.com/" target="_blank"> Ventusky </a>
+<br>
+<a href = "https://www.wunderground.com/" target="_blank"> Weather Undergrounnd </a>
+<br>
+<a href = "https://www.weatherbug.com/" target="_blank"> Weatherbug </a>
+<br>
+
+</body>
+</html>

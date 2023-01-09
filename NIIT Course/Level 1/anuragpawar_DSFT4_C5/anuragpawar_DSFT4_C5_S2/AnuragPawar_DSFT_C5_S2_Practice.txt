@@ -1,0 +1,159 @@
+-----TASK 1-----
+Here we will have to do combinations w/o repetition
+(a)
+For 3 men out of 6
+6C3=6!/(3!*(6-3)!)
+   =20
+for 2 women out of 4
+4C2=4!/(2!*(4-2)!)
+   =6
+Therefore the total number of combinations for the committee of 3men and 2 women:
+=6C3*4C2
+=20*6
+=120
+
+(b)
+Only men(5 out of 6)
+6C5=6
+
+(c)
+for 3 women and 2 men
+=4C3 * 6C2
+=4 * 15
+=60
+for 4 women and 1 man
+=4C4 * 6C1
+=1 * 6
+=6
+therefore total combinations for majority women will be 
+60+6=66
+ correct option= 2. 120, 6, 66
+
+-----TASK 2-----
+here we will have to do combinations w/o repetition
+for 5 card out of 52
+52C5=52!/(5!*(52-5)!)
+    =2598960 i.e. option 3
+
+-----TASK 3-----
+here we will have to do permutation w/o repetiton
+for 3 winner position out of 8 players
+8P3=8!/(8-3)!
+   =336 ie option 2
+
+-----TASK 4-----
+Total number of possible arrengements of the 15 students
+=15P15
+=15! 
+=1307674368000
+Number of possible arrangements where Jenny and David sit together
+=14P14*2P2
+=14! * 2!
+=87178291200 *2
+=174356582400
+Number of arrangement where David and Jenny dont sit together
+=total arrangement - arrangement where David and Jenny dont sit together
+=1307674368000- 174356582400
+=1133317785600
+
+-----TASK 5-----
+for two dice rolled together
+ss=36
+required sample={(1,3),(3,1),(2,6),(6,2)}
+ie 4 observations
+probability=4/36
+     	   =1/9 ie option 3
+
+-----TASK 6-----
+here we will do combinations w/o repetition
+for 3 consonants out of 7
+7C3=7!/(3!*(7-3)!)
+   =35
+for 2 vowels out of 4
+4C2=4!/(2!*(4-2)!)
+   =6
+hence total combinations=7C3 * 4C2 = 35*6 =210
+
+Also for rearranging the 5 letters among themselves= 5! =120
+therefore the total numbers of that can be formed = 210 * 120= 25200 
+
+-----TASK 7-----
+here we have to do combinations selecting 4 members out of 12
+12C4=12!/(4!*(12-4)!)
+    =495
+
+-----TASK 8-----
+25% of 25 is 6.25
+here we will consider 6 faulty and 19 good bulbs
+as 1 good bulb is drawn 18 good bulbs are remaining and total 24 bulbs are there in the box
+probability=18/24 ie option 3
+
+-----TASK 9-----
+(a)out of 150 vehicles
+probability of a van leaving first= 50/150 =1/3
+
+(b)out of 150 vehicles
+probability of a lorry leaving first=20/150 =2/15
+
+(c)As either a lorry or a van have left first, therefore out of 149 remaining vehicles
+probability of a car leaving first=80/149
+
+-----TASK 10-----
+(a)probability that a class has 2 left handed students = 8/30 =4/15
+
+(b)probability that the class has at least 3 left handed students is
+=probability of 3 + probability of 4 + probability of 5
+=5/30 + 12/30 + 2/30
+=19/30
+
+-----TASK 11-----
+probability of the point lying inside the triangle ABR
+=Area of triangle/Area of square
+=0.5*x*x/2x*2x
+=0.5x^2/4x^2
+=1/8 ie option 4
+
+-----TASK 12-----
+(i) Probability that the sum of the two numbers is equal to 1 is 0 as it is not possible.
+
+(ii)Probability that the sum of the two numbers is equal to 4
+ss=36
+required sample={(1,3),(2,2),(3,1)}
+ie 3 observations
+probability=3/36 =1/12
+
+(iii)Probability that the sum of the two numbers is less than 13 is 1 as the maximum sum will be 12. Hence
+all the observations come under the required sample.
+
+-----TASK 13-----
+ss=20
+(1)No. of even number in 1-20 = 10
+therefore, probability of getting an even number= 10/20 = 1/2
+
+(2)numbers divisible by 3=(3,6,9,12,15,18)
+ie 6 observations
+probability that number is divisible by 3 =6/20 =3/10
+
+(3)prime numbers=(2,3,5,7,11,13,17,19)
+ie 8 observations
+probability that number is prime = 8/20 =2/5
+
+(4)numbers divisible by 5=(5,10,15,20)
+ie 4 observations
+probability that number is divisible by 5= 4/20 = 1/5
+
+-----TASK 14-----
+ss=6^3=216
+For sum = 11
+required sample={(6,4,1),(6,3,2),(5,3,3),(5,4,2),(5,5,1),(4,4,3)}
+we will also have to consider the observations with different arrangements= 6+6+3+6+3+3= 27
+probability of getting sum 11 =27/216 =1/8 =0.125
+
+For sum = 12
+required sample={(6,4,2),(6,3,3),(6,5,1),(5,5,2),(5,4,3),(4,4,4)}
+we will also have to consider the observations with different arrangements= 6+3+6+3+6+1= 25
+probability of getting sum 12 =25/216 =0.115
+
+Hence the probability of getting sum as 11 is more than of getting 12.
+Hence Henry should bet on sum 11.
+

@@ -1,0 +1,38 @@
+TASK 1
+customer_data database was created.
+
+TASK 2
+customer_details collection was created in the database.
+
+TASK 3
+10 documents were inserted containing name, age, email-id and date.
+
+TASK 4
+The preferred age group for online consumer is 20-30.
+{$and :[{age: {$lte : 30}},{age: {$gte : 20}}]}
+
+TASK 5
+The email id of customers with customer id 5, 7, 8, 10 was updated.
+
+TASK 6
+Customer feedback collection was created.
+
+TASK 7
+Feedbacks given by each customer was inserted in the collection.
+
+TASK 8
+Customer id for each customer was added.
+
+TASK 9
+The list of customers who were no longer active was retrieved.
+{date:{$lt:ISODate("2021-07-01")}}
+
+Task 10
+All the documents in the customer_feedback collection were mapped with customer details using customer id.
+
+TASK 11
+The customers giving positive feedback were identified.
+{likes: {$gte : 4}, dislikes: {$lte : 2}}
+
+TASK 12
+The feedback of all the customers was inserted as in task 7.

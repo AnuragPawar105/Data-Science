@@ -1,0 +1,22 @@
+use car_sales;
+select * from customers;
+select * from salesperson where first_name like 'P__L%';
+Select * from customers where city in ('San Jose', 'Brazil', 'London');
+select * from customers where first_name like 'G%' or first_name like 'A%';
+select city, rating from customers group by city order by rating desc;
+select * from salesperson where city in ('Barcelona', 'LONDON');
+select * from orders where order_date > 2020-10-03 and order_date < 2020-12-04;
+select sum(Amount) as Total_amount from orders;
+select count(cust_ID) as Number_of_non_null_ratings from customers where rating != null;
+Select concat(concat(first_name,' '), last_name) as full_name from customers;
+select * from customers where rating > 200 and rating < 300;
+select * from customers order by first_name;
+select * from orders order by Amount desc;
+select avg(Amount) from orders;
+select count(cust_ID), city from customers group by city;
+select count(cust_ID), city from customers group by city order by city desc;
+select Order_ID, month(Order_date) as order_month from orders where month(order_date) = 4;
+select order_ID, amount from orders order by amount desc limit 5;
+select * from salesperson order by commission_rate desc limit 3;
+select * from salesperson order by commission_rate limit 3;
+
